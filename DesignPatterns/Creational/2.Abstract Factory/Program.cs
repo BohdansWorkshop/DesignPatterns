@@ -129,7 +129,7 @@ namespace _2.Abstract_Factory
     #endregion
 
 
-    #region Example
+    #region CustomImplementation
     
     public abstract class BeastFactory
     {
