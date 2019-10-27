@@ -33,6 +33,7 @@ namespace _4.Composite
     }
 
     #region UML Implementation
+
     class Client
     {
         public void Main()
@@ -104,10 +105,10 @@ namespace _4.Composite
         }
     }
 
-
     #endregion
 
     #region Custom Implementation
+
     public abstract class FileSystemComponent
     {
         public abstract string Name { get; set; }
@@ -177,5 +178,6 @@ namespace _4.Composite
 
         public override void Rename(FileSystemComponent component, string newName) {}
     }
+
     #endregion
 }
